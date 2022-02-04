@@ -1,35 +1,100 @@
 *{
-    background-color: #243462;
+    margin: 0;
+    padding: 0;    
 }
 
-body {
-    padding: 0px;
-    margin: 0%;
+.header {
+    height: 100vh;
+    width: 100%;
+    /* background: #243462; */
+    background: #f4f6eb;
+    font-family: "Open Sans", Arial, san-serif;
+    position: relative;    
 }
 
-h1 {
+nav {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
     display: flex;
-    justify-content: center;
-    color:white;
-    font-size:100px;
-    align-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: space-between;
 }
 
-button {
-    width: 200px;
-    height: 100px;
-    color:black;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: brown;
-    background-color: #e2c389;
-    border-radius: 31px;
-    box-shadow: 0px 0px 10px 9px #00000050;
+.logo {
+    font-size: 35px;
+    font-weight: 700;
+    color: #003e5cff;
+    cursor: pointer;
 }
 
-.information {
-    display: flex;
-    max-width: 85%;
-    margin:0 auto;
-    justify-content: center;
+p span {
+    color: #f13b17;
 }
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #003e5c;
+}
+nav ul li a:hover {
+    color: #f13b17;
+    font-weight: bold;
+    
+}
+
+.info {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.info h1 {
+    font-size: 60px;
+    color: #003e5c;
+    margin-bottom: 20px;    
+}
+
+.info span {
+    color: #f13b17;
+}
+
+.info p {
+    color: #003e5c;
+    line-height: 40px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.primary-cta{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 15px 30px;
+    background: #003e5c;
+    text-decoration: none;    
+    border-radius: 5px;
+    color: #f4f6eb;
+}
+.secondary-cta {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: 2px solid #003e5c;    
+    text-decoration: none;    
+    border-radius: 5px;
+    color: #003e5c;
+}
+
+.box-img img {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+}
+
+    
